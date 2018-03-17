@@ -17,7 +17,7 @@ import java.util.concurrent.Future;
 public class VehicleFactory {
 	
 	// our parallel worker threads count configuration 
-	static int workersCount = 7;
+	static int workersCount = 3;
 	
 	// list of our workers that will create vehicles
     static List<Callable<Integer>> workersList = new ArrayList<Callable<Integer>>();
