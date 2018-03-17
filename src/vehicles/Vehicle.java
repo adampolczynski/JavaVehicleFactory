@@ -2,8 +2,9 @@ package vehicles;
 
 public abstract class Vehicle {
 	
-	int price, prodTime;
-	String type;
+	public int price;
+	protected int prodTime;
+	protected String type;
 	
 	public void create() throws InterruptedException {
 		System.out.format("Factory creates %s... \n", this.type);
