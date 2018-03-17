@@ -85,7 +85,7 @@ public class VehicleFactory {
 	    }
 	    
 	    // print out final procution cost
-		System.out.format("Total production cost: %d.", totalProductionCost);
+		System.out.format("Total production cost: %d.\n", totalProductionCost);
 		System.exit(0);
 	}
 	
